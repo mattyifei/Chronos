@@ -196,6 +196,11 @@
 .payment-form {
   padding: 0 16px;
 }
+.checkout-sample,
+.billing-sample,
+.payment-form-sample {
+  padding: 0 16px;
+}
 
 .payment-container {
   background-color: #f2f2f2;
@@ -240,20 +245,64 @@ span.price {
     margin-bottom: 20px;
   }
 }
-
+.card-sample{
+  box-shadow: 0 4px 8px 0 rgb(52, 52, 52);
+  max-width: 400px;	
+  margin: auto;		
+  text-align: center;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgb(52, 52, 52);
-  max-width: 400px;
-  margin: auto;
+  max-width: 500px;	
+  margin: auto;		
   text-align: center;
-
+  height: 620px;
+  margin-bottom: 2rem;
 }
+.card img {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+.card h3 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.card p {
+  padding-left: 40px;
+  padding-right: 40px;
+}		
+
 
 .price {
   color: grey;
   font-size: 22px;
 }
+.card-sample button {
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: sofiapro-light, sans-serif;
+  background-color: rgb(230, 230, 229);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
 
+.card-sample button:hover {
+  background-color: rgb(58, 58, 58);
+  -webkit-text-fill-color: #f2f2f2;
+  border: none;
+  /* color: rgb(52, 52, 52); */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 .card button {
 
 
@@ -274,22 +323,38 @@ span.price {
   background-color: rgb(58, 58, 58);
   -webkit-text-fill-color: #f2f2f2;
   border: none;
+  /* color: rgb(52, 52, 52); */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
-
-.container {
+.container-sample {
   font-family: sofiapro-light, sans-serif;
   position: relative;
   width: 50%;
-  margin: auto;
 }
+.container {
+  font-family: sofiapro-light, sans-serif;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container p {
+  padding-left: 60px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}		
+
 
 .image {
-  display: inline-block;
+  display: flex;
   width: 100%;
   height: auto;
 }
