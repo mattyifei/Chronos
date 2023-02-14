@@ -91,7 +91,9 @@
 #navigation-container {
   z-index: 1;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-  padding: 1rem;
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
   margin: 0 auto;
   position: fixed;
   background-color: white;
@@ -104,7 +106,7 @@
   height: 70px;
   width: 100%;
   text-align: center;
-  margin-bottom: auto;
+  margin-bottom: 100px;
 }
 
 .navigation-bar img {
@@ -152,11 +154,11 @@
 
 .navigation-bar li a {
   color: black;
-  font-size: 16px;
+  font-size: 15px;
   font-family: sofiapro-light, sans-serif;
   text-decoration: none;
   line-height: 70px;
-  padding: 5px 15px;
+  padding: 5px 10px;
   opacity: 0.7;
 }
 
