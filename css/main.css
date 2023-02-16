@@ -27,11 +27,14 @@
   background-color: white;
   top: 0;
   left: 0;
+  height: 100px;
+
 }
 
 .navigation-bar-sample {
   margin-bottom: 30px;
   width: 100%;
+
   text-align: center;
 }
 
@@ -205,9 +208,10 @@
 }
 
 .payment-container {
+  margin: auto;
   background-color: #f2f2f2;
-  width: 100%;
-  padding-bottom: 30px;
+  width: 80%;
+  padding: 60px;
   align-items: center;
 }
 
@@ -415,6 +419,7 @@ span.price {
   text-align: center;
 }
 .review input[type=text] {
+  height: 67px;
   width: 200%;
   padding: 12px 20px;
   margin: 20px 0;
@@ -424,8 +429,9 @@ span.price {
 }
 input[type=text],
 select {
-  width: 100%;
   height: 67px;
+
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -434,6 +440,7 @@ select {
 }
 
 input[type=submit] {
+  height: 50px;
   width: 100%;
   color: rgb(0, 0, 0);
   padding: 14px 20px;
@@ -446,7 +453,7 @@ input[type=submit] {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: sofiapro-light, sans-serif;
-  background-color: rgb(230, 230, 229);
+  background-color: rgb(211, 211, 211);
   border: none;
   color: rgb(52, 52, 52);
   padding: 15px 32px;
@@ -607,5 +614,9 @@ code {
   margin-top:20px;
 }
 
+.contact{
+  margin-right: 300px;
+  margin-left: 300px;
 
+}
 
