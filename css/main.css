@@ -9,7 +9,7 @@
 }
 
 .logo {
-  float: middle;
+  align-items: center;
 }
 
 /* ~~ Top Navigation Bar ~~ */
@@ -208,7 +208,7 @@
   background-color: #f2f2f2;
   width: 100%;
   padding-bottom: 30px;
-  float: center;
+  align-items: center;
 }
 
 input[type=text] {
@@ -348,7 +348,7 @@ span.price {
   margin: auto;		
   margin-bottom: 20px;
   box-sizing: border-box;
-  flex-basis: 1 1 auto;
+ 
 }
 .container p {
   padding-left: 60px;
@@ -360,12 +360,13 @@ span.price {
   object-fit: cover;
 }
 
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  flex-wrap: wrap;
+
 }		
 
 
@@ -432,7 +433,6 @@ input[type=submit] {
 }
 
 .button {
-  width: 7;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: sofiapro-light, sans-serif;
