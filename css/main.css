@@ -368,7 +368,9 @@ span.price {
   grid-auto-rows: minmax(100px, auto);
 
 }		
-
+.checked {
+  color: orange;
+}
 
 .image {
   display: flex;
@@ -412,10 +414,18 @@ span.price {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+.review input[type=text] {
+  width: 200%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
 input[type=text],
 select {
   width: 100%;
+  height: 67px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
