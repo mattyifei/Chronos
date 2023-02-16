@@ -572,7 +572,8 @@ code {
   flex-direction: row;
   position:relative;
   gap: 10px;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .box{
