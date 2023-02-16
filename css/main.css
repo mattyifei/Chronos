@@ -247,10 +247,7 @@ span.price {
     margin-bottom: 20px;
   }
 
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-  }
+
 }
 .card-sample{
   box-shadow: 0 4px 8px 0 rgb(52, 52, 52);
@@ -348,24 +345,21 @@ span.price {
   margin: auto;		
   margin-bottom: 20px;
   box-sizing: border-box;
-  flex-basis: 1 1 auto;
+ 
 }
 .container p {
   padding-left: 60px;
 }
 
-.container img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-}
+
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  flex-wrap: wrap;
+
+  flex-basis: 1 1 auto;
 }		
 
 
