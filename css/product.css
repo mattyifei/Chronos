@@ -243,16 +243,18 @@ span.price {
 }
 
 .grid-container {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 
 .image {
-  display: flex;
-  width: 100%;
-  height: auto;
+  /* display: flex; */
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
 }
 
 .overlay {
@@ -411,4 +413,20 @@ p {
 
 .section {
   margin-bottom: 100px;
+}
+
+.store-img img{
+  width: 80%;
+}
+
+.store-img .overlay {
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+@media (max-width: 800px) {
+  .grid-container{
+    flex-direction: column;
+  }
 }

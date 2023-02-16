@@ -375,12 +375,12 @@ input[type=submit] {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
-  color: darkslateblue;
+  color: rgb(0, 0, 0);
 }
 
 .link a:hover {
   border-bottom: 1px solid;
-  color: hotpink;
+  color: rgb(23, 16, 89);
 
 }
 
@@ -445,3 +445,52 @@ code {
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
 
 }
+
+.box-container{
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  gap: 10px;
+  width: 100%;
+}
+
+.box{
+  border:1px solid #ccc ;
+  width: 50%;
+  padding: 20px 10px 10px;
+}
+
+.button_two {
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: sofiapro-light, sans-serif;
+  background-color: rgb(230, 230, 229);
+  border: none;
+  color: rgb(52, 52, 52);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top:15px;
+  margin-bottom:15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.button_two:hover {
+  background-color: rgb(58, 58, 58);
+  color:#f2f2f2
+}
+
+.box .link {
+  text-align: left;
+  margin-bottom: 8%;
+}
+
+.heading{
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-top:20px;
+}
+
+
