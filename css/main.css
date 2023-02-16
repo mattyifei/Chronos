@@ -348,7 +348,8 @@ span.price {
   padding-left: 60px;
 }
 .grid-container {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
@@ -357,8 +358,9 @@ span.price {
 
 .image {
   display: flex;
-  width: 100%;
-  height: auto;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
 }
 
 .overlay {
@@ -446,12 +448,12 @@ input[type=submit] {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
-  color: darkslateblue;
+  color: black;
 }
 
 .link a:hover {
   border-bottom: 1px solid;
-  color: hotpink;
+  color: rgb(23, 16, 89);
 
 }
 
@@ -520,4 +522,73 @@ code {
   /* flex-direction: ; */
   display: flex;
   flex-wrap: wrap;
+}
+
+
+/* for events page*/
+.store-img img{
+  width: 80%;
+}
+
+.store-img .overlay {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* about page*/
+
+.box-container{
+  display: flex;
+  flex-direction: row;
+  position:relative;
+  gap: 10px;
+  width: 100%;
+}
+
+.box{
+  border:1px solid #ccc ;
+  width: 50%;
+  padding: 20px 10px 10px;
+}
+
+.button_two {
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: sofiapro-light, sans-serif;
+  background-color: rgb(230, 230, 229);
+  border: none;
+  color: rgb(52, 52, 52);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top:15px;
+  margin-bottom:15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.button_two:hover {
+  background-color: rgb(58, 58, 58);
+  color:#f2f2f2
+}
+
+.box .link {
+  text-align: left;
+  margin-bottom: 8%;
+}
+
+.heading{
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-top:20px;
+}
+
+
+
+
+@media (max-width: 800px) {
+  .grid-container{
+    flex-direction: column;
+  }
 }
