@@ -771,10 +771,12 @@ code {
 
 .box-footer {
   justify-content: center;
-  padding: 10px;
+  /* padding: 10px; */
+  padding-left: 0px;
   width: 90%;
   margin: auto;
 }
+
 
 /* reference for nth of type: https://www.w3schools.com/cssref/sel_nth-of-type.php */
 .section-footer :nth-of-type(1) {  
