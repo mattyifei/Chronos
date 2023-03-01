@@ -106,7 +106,7 @@
 }
 
 .navigation-bar {
-  height: 70px;
+  height: 100px;
   width: 100%;
   text-align: center;
   margin-bottom: 5px;
@@ -382,7 +382,12 @@ span.price {
   height: auto;
 
 }
-
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -391,7 +396,7 @@ span.price {
   right: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  opacity: 60%;
   transition: .5s ease;
   background-color: #000000;
 }
@@ -403,13 +408,17 @@ span.price {
 }
 
 .container:hover .overlay {
-  opacity: 80%;
+  opacity: 0%;
   background-color: #000000;
 }
-
 .text {
+  letter-spacing: .1rem;
+  /* font-weight: bold; */
+  z-index: 1;
+  text-decoration: none;
+  font-size: 40px;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -450,12 +459,15 @@ input[type=submit] {
 }
 
 .button {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: sofiapro-light, sans-serif;
-  background-color: rgb(211, 211, 211);
   border: none;
-  color: rgb(52, 52, 52);
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
@@ -561,7 +573,7 @@ code {
 
 .flex-container img{
   width: 500px;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   margin: auto;
   justify-content: center;
@@ -569,7 +581,7 @@ code {
 
 .flex-container .overlay {
   width: 500px;
-  height: 300px;
+  height: 400px;
 }
 
 
