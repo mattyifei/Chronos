@@ -690,6 +690,7 @@ code {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .heading {
   font-size: 30px;
   padding-bottom: 10px;
@@ -714,6 +715,26 @@ code {
 
 #email{
   max-width: 500px;
+=======
+.heading{
+  font-size: 1rem;
+  padding-bottom: 10px;
+  margin-top:20px;
+
+}
+
+.contact{
+  align-content: center;
+}
+
+#email{
+  max-width: 500px;
+}
+
+.section-email{
+  margin-top: 10rem;
+  position:relative;
+>>>>>>> main
 }
 
 .section-email{
@@ -746,6 +767,25 @@ code {
   grid-auto-rows: minmax(100px, auto);
 
 }
+
+.slideshow-container .button{
+  padding: 10px;
+  font-size: 10px;
+  display: inline-block;
+}
+
+
+
+.slideshow-container input[type=submit] {
+  padding: 10px;
+  margin: auto;
+  font-size: 10px;
+  width: 80px;
+  height: auto;
+  display: inline-block;
+}
+
+
 
 .slideshow-container .button{
   padding: 10px;
@@ -801,8 +841,11 @@ code {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .storyimg-box {
 =======
+=======
+>>>>>>> main
 .story-container .button{
   padding: 20px;
 }
@@ -846,11 +889,14 @@ code {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* .connect-link img{
   width: 100px;
   height: 100px;
 } */
 =======
+=======
+>>>>>>> main
 .section-home .button{
   width: 200px;
 }
@@ -871,6 +917,9 @@ code {
   margin-top: 10rem;
   position:relative;
 }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
 .footer {
@@ -901,9 +950,15 @@ code {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer-box p {
   font-size: 10px;
   text-align: left;
+=======
+.footer-box p{
+  font-size: 15px;
+  text-align: center;
+>>>>>>> main
 =======
 .footer-box p{
   font-size: 15px;
@@ -924,8 +979,13 @@ code {
 
 /* reference for nth of type: https://www.w3schools.com/cssref/sel_nth-of-type.php */
 <<<<<<< HEAD
+<<<<<<< HEAD
 .section-footer :nth-of-type(1) {
   width: 450px;
+=======
+.section-footer :nth-of-type(1) {  
+  width: 100%;
+>>>>>>> main
 =======
 .section-footer :nth-of-type(1) {  
   width: 100%;
@@ -961,6 +1021,7 @@ code {
 .section-about{
   margin-top: 10rem;
   position:relative;
+<<<<<<< HEAD
 }
 
 /* event page */
@@ -1109,6 +1170,19 @@ code {
   text-align: center;
   font-style: italic;
 =======
+.section-contact{
+  margin-top: 10rem;
+  position:relative;
+>>>>>>> main
+=======
+}
+
+/* event page */
+.email-container .button{
+  margin-bottom: 30px;
+}
+
+
 .section-contact{
   margin-top: 10rem;
   position:relative;
