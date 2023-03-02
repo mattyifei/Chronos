@@ -103,13 +103,14 @@
   top: 0;
   left: 0;
   right: 0;
+
 }
 
 .navigation-bar {
   height: 100px;
   width: 100%;
   text-align: center;
-  margin-bottom: 5px;
+
 }
 
 .navigation-bar img {
@@ -570,7 +571,7 @@ h1 {
 h2 {
   font-family: sofiapro-light, sans-serif;
   font-size: 2.5em;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 h3 {
@@ -649,6 +650,7 @@ code {
   gap: 10px;
   width: 80%;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .box {
@@ -687,6 +689,7 @@ code {
   margin-bottom: 8%;
 }
 
+<<<<<<< HEAD
 .heading {
   font-size: 30px;
   padding-bottom: 10px;
@@ -696,7 +699,26 @@ code {
 .contact {
   margin-right: 300px;
   margin-left: 300px;
+=======
+.heading{
+  font-size: 1rem;
+  padding-bottom: 10px;
+  margin-top:20px;
 
+}
+
+.contact{
+  align-content: center;
+}
+>>>>>>> main
+
+#email{
+  max-width: 500px;
+}
+
+.section-email{
+  margin-top: 10rem;
+  position:relative;
 }
 
 #bannerimage img {
@@ -704,6 +726,9 @@ code {
   height: 300px;
   object-fit: cover;
   object-position: 0% 35%;
+  margin-top: 5rem;
+  position:relative;
+
 }
 
 .shop-button {
@@ -721,6 +746,25 @@ code {
   grid-auto-rows: minmax(100px, auto);
 
 }
+
+.slideshow-container .button{
+  padding: 10px;
+  font-size: 10px;
+  display: inline-block;
+}
+
+
+
+.slideshow-container input[type=submit] {
+  padding: 10px;
+  margin: auto;
+  font-size: 10px;
+  width: 80px;
+  height: auto;
+  display: inline-block;
+}
+
+
 
 .slideshow-box {
   max-width: 250px;
@@ -756,7 +800,15 @@ code {
 
 }
 
+<<<<<<< HEAD
 .storyimg-box {
+=======
+.story-container .button{
+  padding: 20px;
+}
+
+.storyimg-box{
+>>>>>>> main
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -793,10 +845,33 @@ code {
   padding-bottom: 100px;
 }
 
+<<<<<<< HEAD
 /* .connect-link img{
   width: 100px;
   height: 100px;
 } */
+=======
+.section-home .button{
+  width: 200px;
+}
+
+.section-home1 {
+  background-color:rgb(240, 239, 231);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-home2 {
+  margin: 0px;
+  width: 100%;
+  padding: 0%;
+}
+
+.section-product{
+  margin-top: 10rem;
+  position:relative;
+}
+>>>>>>> main
 
 .footer {
   display: grid;
@@ -822,30 +897,53 @@ code {
   padding: 10px;
   width: 100%;
   margin: auto;
+  text-align: center;
 }
 
+<<<<<<< HEAD
 .footer-box p {
   font-size: 10px;
   text-align: left;
+=======
+.footer-box p{
+  font-size: 15px;
+  text-align: center;
+>>>>>>> main
 }
 
 .box-footer {
   justify-content: center;
-  /* padding: 10px; */
-  padding-left: 0px;
+  padding: 10px;
   width: 90%;
   margin: auto;
+  text-align: left;
+  font-size: 0.8rem;
+
 }
 
 
 /* reference for nth of type: https://www.w3schools.com/cssref/sel_nth-of-type.php */
+<<<<<<< HEAD
 .section-footer :nth-of-type(1) {
   width: 450px;
+=======
+.section-footer :nth-of-type(1) {  
+  width: 100%;
+>>>>>>> main
   margin: auto;
 
 }
 
-.section-footer :nth-of-type(2) {
+.link {
+  padding-left: 20%;
+}
+
+.box .link {
+  padding-left: 0%;
+}
+
+
+/* .section-footer :nth-of-type(2) {
   max-width: 200px;
   padding-left: 10px;
 }
@@ -853,10 +951,25 @@ code {
 .section-footer :nth-of-type(3) {
   max-width: 200px;
   padding-left: 10px;
+} */
+
+/* about page */
+.img img{
+  width: 100%;
+}
+
+.section-about{
+  margin-top: 10rem;
+  position:relative;
+}
+
+/* event page */
+.email-container .button{
+  margin-bottom: 30px;
 }
 
 
-
+<<<<<<< HEAD
 /* SHOPPING CART CSS */
 
 .shopping-cart {
@@ -995,4 +1108,9 @@ code {
   font-size: 45px;
   text-align: center;
   font-style: italic;
+=======
+.section-contact{
+  margin-top: 10rem;
+  position:relative;
+>>>>>>> main
 }
