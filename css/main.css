@@ -457,8 +457,7 @@ input[type=submit] {
   border: none;
   cursor: pointer;
 }
-
-.button {
+.btn {
   border: 2px solid black;
   background-color: white;
   color: black;
@@ -467,7 +466,32 @@ input[type=submit] {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: sofiapro-light, sans-serif;
+  /* border: none; */
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+}
+.btn:hover {
+  background-color: rgb(58, 58, 58);
+  -webkit-text-fill-color: #f2f2f2;
   border: none;
+  /* color: rgb(52, 52, 52); */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  
+}
+.button {
+  border: 2px solid rgb(58, 58, 58);
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: sofiapro-light, sans-serif;
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
@@ -477,8 +501,6 @@ input[type=submit] {
 .button:hover {
   background-color: rgb(58, 58, 58);
   -webkit-text-fill-color: #f2f2f2;
-  border: none;
-  /* color: rgb(52, 52, 52); */
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -566,22 +588,25 @@ code {
   margin:auto;
   gap: 10px;
   width: 100%;
-  padding-right: 4.5%;
+  /* padding-right: 4.5%; */
   margin-bottom: 25px;
 
 }
 
 .flex-container img{
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
   object-fit: cover;
   margin: auto;
   justify-content: center;
 }
 
 .flex-container .overlay {
-  width: 500px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  justify-content: center;
+  
 }
 
 
@@ -614,16 +639,19 @@ code {
 
 .button_two {
   width: 100%;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  font-family: sofiapro-light, sans-serif;
-  background-color: rgb(230, 230, 229);
-  border: none;
-  color: rgb(52, 52, 52);
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top:15px;
   margin-bottom:15px;
+
+  border: 2px solid rgb(58, 58, 58);
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  font-family: sofiapro-light, sans-serif;
+  padding: 15px 32px;
   text-align: center;
   display: inline-block;
   font-size: 14px;
