@@ -590,20 +590,20 @@ input[type=submit] {
   font-size: 14px;
 }
 
-.link a {
+.link a, .link2 a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
   color: black;
 }
 
-.link a:hover {
+.link a:hover, .link2 a:hover {
   border-bottom: 1px solid;
   color: rgb(23, 16, 89);
 
 }
 
-.link a:active {
+.link a:active, .link2 a:active {
   border-bottom: 1px solid;
 }
 
@@ -827,6 +827,7 @@ padding: 30px;
   background-color:rgb(240, 239, 231);
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 20px;
 }
 .section-home2 {
   margin: 0px;
@@ -853,6 +854,7 @@ padding: 30px;
   justify-content: left;
   gap: 25px;
   width: 100%;
+  
 }
 
 .footer-box p {
@@ -887,9 +889,14 @@ padding: 30px;
 
 .link {
   padding-left: 20%;
+  text-align: left
 }
 
 .box .link {
+  padding-left: 0%;
+}
+
+.box-footer .link :nth-of-type(2) {
   padding-left: 0%;
 }
 
