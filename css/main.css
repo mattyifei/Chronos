@@ -611,20 +611,20 @@ margin-bottom: 30px;
   font-size: 14px;
 }
 
-.link a {
+.link a, .link2 a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
   color: black;
 }
 
-.link a:hover {
+.link a:hover, .link2 a:hover {
   border-bottom: 1px solid;
   color: rgb(23, 16, 89);
 
 }
 
-.link a:active {
+.link a:active, .link2 a:active {
   border-bottom: 1px solid;
 }
 
@@ -852,6 +852,8 @@ margin-bottom: 30px;
   font-size: 20px;
 }
 
+/* home */
+
 .section-home {
   margin: auto;
   padding-bottom: 100px;
@@ -866,12 +868,14 @@ margin-bottom: 30px;
   background-color:rgb(240, 239, 231);
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 20px;
 }
 .section-home2 {
   margin: 0px;
   width: 100%;
   padding: 0%;
 }
+
 
 .footer{
   display: grid;
@@ -883,6 +887,7 @@ margin-bottom: 30px;
   width: 90%;
 }
 
+
 .section-footer{
   display: flex;
   text-align: left;
@@ -890,6 +895,7 @@ margin-bottom: 30px;
   justify-content: left;
   gap: 25px;
   width: 100%;
+  
 }
 
 /* ~~ footer ~~ */
@@ -918,7 +924,13 @@ margin-bottom: 30px;
   font-size: 0.8rem;
 
 }
-
+.footer-box {
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
 
 /* reference for nth of type: https://www.w3schools.com/cssref/sel_nth-of-type.php */
 .section-footer :nth-of-type(1) {
@@ -929,9 +941,14 @@ margin-bottom: 30px;
 
 .link {
   padding-left: 20%;
+  text-align: left
 }
 
 .box .link {
+  padding-left: 0%;
+}
+
+.box-footer .link :nth-of-type(2) {
   padding-left: 0%;
 }
 
@@ -940,6 +957,8 @@ margin-bottom: 30px;
   max-width: 200px;
   padding-left: 10px;
 }
+
+
 
 
 /* SHOPPING CART CSS */
@@ -1083,54 +1102,6 @@ margin-bottom: 30px;
   font-style: italic;
 }
 
-.section-home1 {
-  background-color:rgb(240, 239, 231);
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.section-footer{
-  display: flex;
-  text-align: left;
-  margin: auto;
-  justify-content: left;
-  gap: 25px;
-  width: 100%;
-}
-.section-home2 {
-  margin: 0px;
-  width: 100%;
-  padding: 0%;
-}
-.box-footer {
-  justify-content: center;
-  padding: 10px;
-  width: 90%;
-  margin: auto;
-  text-align: left;
-  font-size: 0.8rem;
-
-}
-.footer-box {
-  justify-content: center;
-  padding: 10px;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-}
-
-.footer-box p{
-  font-size: 15px;
-  text-align: center;
-}
-.footer{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  grid-auto-rows: minmax(100px, auto);
-  text-align: left;
-  margin: auto;
-  width: 90%;
-}
 .section-box{
   background-color: #202020; 
   display: flex; 
