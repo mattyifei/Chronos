@@ -1364,6 +1364,11 @@ a{
   width: 12%
 }
 
+
+.img .img-about{
+  width: 80%
+}
+
 .section-citation .citation {
   margin: auto;
   padding-bottom: 50px;
