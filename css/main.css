@@ -16,8 +16,8 @@ body {
 }
 
 .element {
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-right: 10%;
+  margin-left: 10%;
   padding-bottom: 2rem;
   border-top-width: 0.15rem;
   border-top-style: solid;
@@ -725,8 +725,9 @@ margin-bottom: 30px;
 
 code {
   margin: auto;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
   background-color: rgb(249, 246, 240);
   padding: 0.5rem;
   display: block;
@@ -1357,16 +1358,11 @@ a{
 
 /* submit page footer logo */
 .footer-box .chronoswhite{  
-  width: 50%
+  width: 10%
 }
 
 .chronos{
   width: 12%
-}
-
-
-.img .img-about{
-  width: 80%
 }
 
 .section-citation .citation {
