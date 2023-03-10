@@ -461,7 +461,115 @@ span.price {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.module1 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/event1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  /* justify-content: center; */
+  /* float: left; */
+}
+.module2 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/event2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.module3 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/event3.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.module4 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/future_event1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.module5 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://images.pexels.com/photos/1151440/pexels-photo-1151440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+.module6 {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
 
+.top h2 {
+  color: white;
+  margin: 0;
+  padding-top: 30px;
+    padding-right: 20px;
+  padding-left: 20px;
+}
+.top p {
+  color: white;
+  margin: 0;
+  font-size: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+}
+.top h4 {
+  color: white;
+
+  font-size: 20px;
+
+  padding-right: 20px;
+  padding-left: 20px;
+}
 .overlay {
   position: absolute;
   top: 0;
