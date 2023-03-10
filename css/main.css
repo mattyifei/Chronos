@@ -304,20 +304,6 @@ span.price {
   color: grey;
 }
 
-/* @media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-
-  .col-25 {
-    margin-bottom: 20px;
-  }
-
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-  }
-} */
 .card-sample {
   box-shadow: 0 4px 8px 0 rgb(52, 52, 52);
   max-width: 400px;
@@ -1368,6 +1354,30 @@ a{
   transition: all ease 0.3s;
 }
 
+
+/* submit page footer logo */
+.footer-box .chronoswhite{  
+  width: 50%
+}
+
+.chronos{
+  width: 12%
+}
+
+.section-citation .citation {
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.citation2 {
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+
+
 @media(max-width:1060px){
   .testimonial-box{
       width:45%;
@@ -1397,11 +1407,3 @@ a{
   background-color: #252525;
 }
 
-/* submit page footer logo */
-.footer-box .chronoswhite{  
-  width: 50%
-}
-
-.chronos{
-  width: 12%
-}
